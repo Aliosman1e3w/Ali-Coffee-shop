@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ali Coffee Shop</title>
+    <link rel="icon" href="images/logol.png" type="image/x-icon" />
+
+    <!-- External Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <!-- Local Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg py-0 sticky-top trynav">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img class="logo" src="images/logol.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse py-3" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+          <button class="btn custom-btn ms-lg-3">Customize Your Coffee</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero vh-100 d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="cont col-lg-7 ps-lg-7">
+            <div class="hero-image">
+              <img src="images/logol.png" alt="Hero Image" class="img-fluid" />
+            </div>
+            <h1 class="display-4">GET YOUR BELOVED COFFEE</h1>
+            <div class="center-button">
+              <button class="btn btn-outline-light btncust">
+                Customize Your Coffee
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section1" id="about">
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+              <div class="row g-3">
+                <div class="col-6 text-start">
+                  <img
+                    class="img-fluid rounded w-100 wow zoomIn img1"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-wow-delay="0.1s"
+                    src="images/about1.jpg"
+                  />
+                </div>
+                <div class="col-6 text-start">
+                  <img
+                    class="img-fluid rounded w-75 wow zoomIn"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-wow-delay="0.3s"
+                    src="images/about2.jpg"
+                    style="margin-top: 25%"
+                  />
+                </div>
+                <div class="col-6 text-end">
+                  <img
+                    class="img-fluid rounded w-75 wow zoomIn"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-wow-delay="0.5s"
+                    src="images/about3.jpg"
+                  />
+                </div>
+                <div class="col-6 text-end">
+                  <img
+                    class="img-fluid rounded w-100 wow zoomIn"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-wow-delay="0.7s"
+                    src="images/about4.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h5 class="sectiontitle">About Us</h5>
+              <h1 class="mb-4">
+                Welcome to Our
+                <i class="fa fa-utensils text-primary me-2"></i>Coffee Shop
+              </h1>
+              <div class="experience">
+                <span class="counter" data-target="999">0</span>
+                <div class="experience-text">Happy<br />Customers</div>
+              </div>
+              <a class="btn btn-primary py-3 px-5 mt-2 btnr" href=""
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <section class="section2" id="menu">
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-12">
+              <h5 class="sectiontitle">Our Menu</h5>
+
+              <h1 class="mb-4">Delicious Coffee & Treats</h1>
+              <p>
+                Explore our wide variety of coffees and snacks, crafted to
+                perfection to give you the best experience. From classic
+                espresso to gourmet desserts, we have something for everyone.
+              </p>
+              <a class="btn btn-primary py-3 px-5 mt-2 btnr" href=""
+                >View Full Menu</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="product-cards" data-aos="fade-up" data-aos-duration="1500">
+      <div class="container">
+        <div class="row" style="margin-top: 50px">
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+              <div class="image-container">
+                <img
+                  class="icecoffee"
+                  src="images/Iced-CEO-Coconut-Latte.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h3>Ice Coffee</h3>
+                <div class="star">
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                </div>
+                <p>Cold and iced coffee.</p>
+                <h6>
+                  $5.10 <span><button class="addcart">Add Cart</button></span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+              <div class="image-container">
+                <img
+                  class="icecoffee"
+                  src="images/Iced-CEO-Coconut-Latte.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h3>Ice Coffee</h3>
+                <div class="star">
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                </div>
+                <p>Cold and iced coffee.</p>
+                <h6>
+                  $5.10 <span><button class="addcart">Add Cart</button></span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+              <div class="image-container">
+                <img
+                  class="icecoffee"
+                  src="images/Iced-CEO-Coconut-Latte.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h3>Ice Coffee</h3>
+                <div class="star">
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                </div>
+                <p>Cold and iced coffee.</p>
+                <h6>
+                  $5.10 <span><button class="addcart">Add Cart</button></span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+              <div class="image-container">
+                <img
+                  class="icecoffee"
+                  src="images/Iced-CEO-Coconut-Latte.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h3>Ice Coffee</h3>
+                <div class="star">
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                  <i class="bx bxs-star checked"></i>
+                </div>
+                <p>Cold and iced coffee.</p>
+                <h6>
+                  $5.10 <span><button class="addcart">Add Cart</button></span>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="swiper-container-custom myCustomSwiper">
+        <h2 class="h2team">Gallery</h2>
+        <div class="swiper1-wrapper swiper-wrapper">
+          <div class="swiper-slide1 swiper-slide swiper-slide-custom">
+            <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              src="images/gallery1.jpg"
+            />
+          </div>
+          <div class="swiper-slide1 swiper-slide swiper-slide-custom">
+            <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              src="images/gallery1.jpg"
+            />
+          </div>
+          <div class="swiper-slide1 swiper-slide swiper-slide-custom">
+            <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              src="images/gallery1.jpg"
+            />
+          </div>
+          <div class="swiper-slide1 swiper-slide swiper-slide-custom">
+            <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              src="images/gallery1.jpg"
+            />
+          </div>
+          <div class="swiper-slide1 swiper-slide swiper-slide-custom">
+            <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              src="images/gallery1.jpg"
+            />
+          </div>
+          <div class="swiper-slide1 swiper-slide swiper-slide-custom">
+            <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              src="images/gallery1.jpg"
+            />
+          </div>
+          <div class="swiper-slide1 swiper-slide swiper-slide-custom">
+            <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              src="images/gallery1.jpg"
+            />
+          </div>
+          <div class="swiper-slide1 swiper-slide swiper-slide-custom">
+            <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              src="images/gallery1.jpg"
+            />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact1">
+        <div class="container-contact1">
+          <div class="contact1-pic js-tilt" data-tilt>
+            <img src="images/logol.png" alt="IMG" />
+          </div>
+
+          <form class="contact1-form validate-form">
+            <span class="contact1-form-title"> Get in touch </span>
+
+            <div
+              class="wrap-input1 validate-input"
+              data-validate="Name is required"
+            >
+              <input
+                class="input1"
+                type="text"
+                name="name"
+                placeholder="Name"
+              />
+              <span class="shadow-input1"></span>
+            </div>
+
+            <div
+              class="wrap-input1 validate-input"
+              data-validate="Valid email is required: ex@abc.xyz"
+            >
+              <input
+                class="input1"
+                type="text"
+                name="email"
+                placeholder="Email"
+              />
+              <span class="shadow-input1"></span>
+            </div>
+
+            <div
+              class="wrap-input1 validate-input"
+              data-validate="Subject is required"
+            >
+              <input
+                class="input1"
+                type="text"
+                name="subject"
+                placeholder="Subject"
+              />
+              <span class="shadow-input1"></span>
+            </div>
+
+            <div
+              class="wrap-input1 validate-input"
+              data-validate="Message is required"
+            >
+              <textarea
+                class="input1"
+                name="message"
+                placeholder="Message"
+              ></textarea>
+              <span class="shadow-input1"></span>
+            </div>
+
+            <div class="container-contact1-form-btn">
+              <button class="contact1-form-btn">
+                <span>
+                  Send Email
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <hr class="footer-divider" />
+    <footer>
+      <div class="footer__container">
+        <div class="footer__logo">
+          <img src="images/logol.png" alt="logo" id="main__logo" />
+        </div>
+        <div class="footer__links-container">
+          <ul class="footer_firstcol">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Menu</a></li>
+            <li><a href="news.html">Staff</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact-info">
+          <p>Phone: +961 03435372</p>
+          <p>WP: aliothman903@gmail.com</p>
+          <p>South Lebanon, Saida</p>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <p class="fp">© Copyright 2024, Ali Othman.</p>
+        <div class="footer__social-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-close"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.counterup/2.1.0/jquery.counterup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/tilt/tilt.jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+      AOS.init();
+
+      $(document).ready(function () {
+        $('[data-toggle="counter-up"]').counterUp({
+          delay: 10,
+          time: 2000,
+        });
+      });
+
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".trynav");
+        const navbarToggler = document.querySelector(".navbar-toggler-icon");
+
+        if (window.scrollY > 0) {
+          navbar.classList.add("solid");
+          navbarToggler.classList.add("navbar-toggler-icon-dark");
+        } else {
+          navbar.classList.remove("solid");
+          navbarToggler.classList.remove("navbar-toggler-icon-dark");
+        }
+      });
+
+      let section_counter = document.querySelector("#about");
+      let counters = document.querySelectorAll(".experience .counter");
+
+      let CounterObserver = new IntersectionObserver(
+        (entries, observer) => {
+          let [entry] = entries;
+          if (!entry.isIntersecting) return;
+
+          let speed = 200;
+          counters.forEach((counter, index) => {
+            function UpdateCounter() {
+              const targetNumber = +counter.dataset.target;
+              const initialNumber = +counter.innerText;
+              const incPerCount = targetNumber / speed;
+              if (initialNumber < targetNumber) {
+                counter.innerText = Math.ceil(initialNumber + incPerCount);
+                setTimeout(UpdateCounter, 40);
+              }
+            }
+            UpdateCounter();
+
+            if (counter.parentElement.style.animation) {
+              counter.parentElement.style.animation = "";
+            } else {
+              counter.parentElement.style.animation = `slide-up 0.3s ease forwards ${
+                index / counters.length + 0.5
+              }s`;
+            }
+          });
+          observer.unobserve(section_counter);
+        },
+        {
+          root: null,
+          threshold: window.innerWidth > 768 ? 0.4 : 0.3,
+        }
+      );
+
+      CounterObserver.observe(section_counter);
+
+      var customSwiper = new Swiper(".myCustomSwiper", {
+        slidesPerView: "auto",
+        loop: true,
+        loopedSlides: 8,
+        centeredSlides: true,
+        grabCursor: true,
+        effect: "coverflow",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 300,
+          modifier: 1,
+          slideShadows: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
